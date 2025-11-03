@@ -89,7 +89,7 @@ function create ()
 
 function update ()
 {
-    if (cursors.left.isDown)
+    if (true)
 {
     player.setVelocityX(-160);
     player.setFlipX(true);
@@ -124,4 +124,5 @@ if (cursors.up.isDown && player.body.touching.down)
 {
     player.setVelocityY(-440);
 }
+
 }
